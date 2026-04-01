@@ -1,4 +1,5 @@
 # Fix Steps
+Just cd into the android root directory and execute the following commands as followed:
 
 0. Clone it
 ```bash
@@ -15,7 +16,7 @@ unset RBE_DIR
 2. Build a patched reclient bundle for the tree:
 
 ```bash
-bash tutorial/scripts/build_patched_reclient.sh /path/to/android-tree
+bash tutorial/scripts/build_patched_reclient.sh .
 ```
 
 3. Point the tree defaults at the patched bundle:

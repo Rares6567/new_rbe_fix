@@ -80,9 +80,4 @@ printf '%s\n' "${BASE_VERSION}-buildbuddyfix" > "${OUT_DIR}/version.txt"
 cat <<EOF
 patched client created at:
   ${OUT_DIR}
-
-next steps:
-  1. point your tree's default RBE dir/wrapper paths at ${OUT_DIR}
-  2. remove any stale shell-level RBE_DIR override
-  3. run one build and inspect the newest out/soong/rbe logs
 EOF

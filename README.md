@@ -1,5 +1,5 @@
 # Fix Steps
-Just cd into the android root directory and execute the following commands as followed:
+Just cd into the android root directory and copy & paste the following commands as followed:
 
 0. Clone it
 ```bash
